@@ -188,7 +188,7 @@ void Calculate(const string temp) {
 
 	if (!read_and_evaluate(temp)) 
 	{
-		cout << "Error!" << endl;
+		cout << "입력문자를 확인해주세요." << endl;
 	}
 	else {
 		char* postfix = (char*)malloc(temp.length());
