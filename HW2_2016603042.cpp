@@ -215,7 +215,7 @@ int main(int argc, const char* argv[]) {
 	
 	while (1) {
 		cin >> tmp;
-		if (tmp == "EOI") break;
+		if (tmp == "end") break;
 		exp.push_back(tmp);
 	}
 
