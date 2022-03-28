@@ -184,7 +184,7 @@ void calcul_Postfix(const char* temp, int lengths) {
 	cout << num.top() << endl;
 }
 
-void Calculate(const string temp) {
+void young_Calculate(const string temp) {
 
 	if (!read_and_evaluate(temp)) 
 	{
